@@ -1,7 +1,7 @@
 # Python_Project
 
 ## 1) Graph Composer Master
-This makes a random paragraph of desired length from any text file such as songs lyrics or movie subtitles, it uses graph and selects words as per their weights.
+This makes a random paragraph of desired length from any text file such as songs lyrics or movie subtitles, it uses graph and selects words as per their weights. It includes the implementation of Markov Chain
 To run use : python compose.py
 
 ## 2) Hangman
