@@ -4,6 +4,7 @@
 A Python script that can be used to convert a pdf into an audiobook.
 with the help of pyttsx3 library to convert text into speech.
 Note: The pdf file and python script should be in same folder
+To run use : python audiobook.py
 
 ## 2) Graph Composer Master
 This makes a random paragraph of desired length from any text file such as songs lyrics or movie subtitles, it uses graph and selects words as per their weights. It includes the implementation of Markov Chain
