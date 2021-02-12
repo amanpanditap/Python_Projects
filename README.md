@@ -14,12 +14,12 @@ To run use : python compose.py
 It is a simple game to guess the letter in a word with a specific number of lives available to guess.
 To run use: python hangman.py
 
-## 4) Minesweeper
-Command line Minesweeper game.
-
-## 5) Latest News
+## 4) Latest News
 Get the latest news from all over the world by just running a python script.
 Note: Make sure that you have the BeautifulSoup library 
+
+## 5) Minesweeper
+Command line Minesweeper game.
 
 ## 6) Photoshop
 It is a photo editing project which takes particular image as input then as per the requirement adjusts its brightness, contrast, blur, darkens, edge detection kernel, and combines 2 images and then gives the output image.
