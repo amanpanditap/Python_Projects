@@ -18,7 +18,7 @@ If you don't want to make your main gmail less secure, or if you don't already h
 ## 3) Currency_Converter
 Convert currencies and bitcoin using python script in command line.
 Check out the results:
-<img src="Python_Project/Currency_Converter/Result/Screenshot (778).png" height = 400 width = 800>
+<img src="Python_Project/currency_converter/Result/Screenshot (778).png" height = 400 width = 800>
 
 ## 4) Face-Detection using Open-CV
 You can detect multiple faces and eyes using open cv either from an image, webcam or saved video file.
