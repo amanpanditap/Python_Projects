@@ -10,6 +10,7 @@ To run use : python audiobook.py
 Send Email using python code.
 Check out the code for instructions, also configure your Email
 Steps for configuration(Do at your own will!!)
+
 i) While logged into your gmail at gmail.com, go to https://myaccount.google.com/security
 ii) Scroll down to the part that says "Allow less secure apps"
 iii) Turn ON "allow less secure apps".
