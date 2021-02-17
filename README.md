@@ -21,7 +21,7 @@ Check out the results:<br/>
 <img src="currency_converter/Result/Screenshot (778).png" height = 400 width = 800>
 
 ## 4) Face-Detection using Open-CV
-You can detect multiple faces and eyes using open cv either from an image, webcam or saved video file.<br/>
+You can detect multiple faces, eyes and smile using open cv either from an image, webcam or saved video file.<br/>
 Check out the results for images and video in the folder for analysis.<br/>
 Make sure that you have done all the installations properly.<br/>
 To detect face in an image: Run python facedetection-image.py<br/>
