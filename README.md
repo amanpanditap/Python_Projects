@@ -65,3 +65,7 @@ url_shortener.py is the library file for URL shortening.<br/>
 Run python main_script.py to get the desired results.<br/>
 Note: Make sure that the ‘url_shortener.py’ file is available in the same working directory as main_script.py.<br/>
 If you don't wish to use 'main_script.py' file then you can still run the code and get the shortened url by running this command 'python url_shortener.py add_your_link_here'
+
+## 14) Wikipedia
+Get the summary, search, images, links, and many more features of wikipedia article directly through one of the python libraries.<br/>
+Check out the code for explanation and working.
