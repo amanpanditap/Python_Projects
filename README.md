@@ -4,7 +4,7 @@
 A Python script that can be used to convert a pdf into an audiobook.<br/>
 with the help of pyttsx3 library to convert text into speech.<br/>
 Note: The pdf file and python script should be in same folder<br/>
-To run use : 'python audiobook.py'
+To run use : `python audiobook.py`
 
 ## 2) Automate Email
 Send Email using python code.<br/>
@@ -16,7 +16,7 @@ iii) Turn ON "allow less secure apps".<br/>
 If you don't want to make your main gmail less secure, or if you don't already have gmail, then sign up for a new gmail solely for this purpose.
 
 ## 3) Currency_Converter
-Convert currencies and bitcoin using python script in command line.<br/>
+Convert currencies and bitcoin using python script in command line.<br/><br/>
 Check out the results:<br/>
 <img src="currency_converter/result.png" height = 400 width = 800>
 
@@ -24,17 +24,17 @@ Check out the results:<br/>
 You can detect multiple faces, eyes and smile using open cv either from an image, webcam or saved video file.<br/>
 Check out the results for images and video in the folder for analysis.<br/>
 Make sure that you have done all the installations properly.<br/>
-To detect face in an image: Run 'python facedetection-image.py'<br/>
-To detect face from webcam or saved video file: Run 'python facedetection-video.py'<br/>
+To detect face in an image: Run `python facedetection-image.py`<br/>
+To detect face from webcam or saved video file: Run `python facedetection-video.py`<br/>
 
 ## 5) Graph Composer Master
 This makes a random paragraph of desired length from any text file such as songs lyrics or movie subtitles, it uses graph and selects words as per their weights.<br/>
 It includes the implementation of Markov Chain<br/>
-To run use : 'python compose.py'
+To run use : `python compose.py`
 
 ## 6) Hangman
 It is a simple game to guess the letter in a word with a specific number of lives available to guess.<br/>
-To run use: 'python hangman.py'
+To run use: `python hangman.py`
 
 ## 7) Latest News
 Get the latest news from all over the world by just running a python script.<br/>
@@ -46,7 +46,7 @@ Command line Minesweeper game.
 ## 9) Photoshop
 It is a photo editing project which takes particular image as input then as per the requirement adjusts its brightness, contrast, blur, darkens, edge detection kernel, and combines 2 images and then gives the output image.<br/>
 Note: Use version below than Python 3.9 for running this, suggested Python 3.8.<br/>
-To run use: 'python transform.py'
+To run use: `python transform.py`
 
 ## 10) Reminder
 Get a reminder on your desktop as per your wish with a beep sound!
@@ -56,13 +56,13 @@ Solves the soduku puzzle and gives the output using backtracking.
 
 ## 12) TextEditor
 An elegant, yet simple, text editor made with Python and wxPython.<br/>
-Install wxPython by using: 'pip install wxPython' <br/><br/>
+Install wxPython by using: `pip install wxPython`<br/><br/>
 Check out the results:<br/>
 <img src="texteditor/result.png" height = 400 width = 800>
 
 ## 13) TicTacToe
 Play TicTacToe against Smart Computer which is almost undefeatable, challenge yourself by defeating the Computer, It uses Minimax algorithm.<br/>
-To run use: 'python game.py'
+To run use: `python game.py`
 
 ## 14) Url-Shortener
 Shorten all the urls using tinyurl API.<br/>
@@ -70,7 +70,7 @@ You can enter multiple links(1000+ without getting crashed) in a text file at on
 url_shortener.py is the library file for URL shortening.<br/>
 Run python main_script.py to get the desired results.<br/>
 Note: Make sure that the ‘url_shortener.py’ file is available in the same working directory as main_script.py.<br/>
-If you don't wish to use 'main_script.py' file then you can still run the code and get the shortened url by running this command 'python url_shortener.py add_your_link_here'
+If you don't wish to use 'main_script.py' file then you can still run the code and get the shortened url by running this command `python url_shortener.py add_your_link_here`
 
 ## 15) Wikipedia
 Get the summary, search, images, links, and many more features of wikipedia article directly through one of the python libraries.<br/>
