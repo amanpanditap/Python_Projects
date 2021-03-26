@@ -51,6 +51,18 @@ To run use: `python transform.py`
 ## 10) Reminder
 Get a reminder on your desktop as per your wish with a beep sound!
 
+## 11) Python - Simple Math Interpreter
+
+An interpreter, written from scratch in Python, that can evaluate simple math calculations.
+
+This is useful for learning how computers process human-readable text and is a great first step to creating your own programming language, data language, etc.
+
+The user input is analyzed in two sections of code called the lexer and parser, before finally being interpreted by the interpreter.
+
+- Run: `python main.py` 
+
+Credits to [CodePulse](https://www.youtube.com/channel/UCUVahoidFA7F3Asfvamrm7w) for the Simple Math interpreter written in Python
+
 ## 11) Soduku
 Solves the soduku puzzle and gives the output using backtracking.
 
