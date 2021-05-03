@@ -59,24 +59,32 @@ This is useful for learning how computers process human-readable text and is a g
 
 The user input is analyzed in two sections of code called the lexer and parser, before finally being interpreted by the interpreter.
 
-- Run: `python main.py` 
+- Run: `python main.py`
 
 Credits to [CodePulse](https://www.youtube.com/channel/UCUVahoidFA7F3Asfvamrm7w) for the Simple Math interpreter written in Python
 
-## 12) Soduku
+## 12) SpeechRecognition
+
+Speech to Text Conversion in python using speech_recognition.<br/>
+Install it using : `pip install SpeechRecognition`<br/>
+Check the codes for detailed guidelines.<br/><br/>
+Here is a sample result:<br/>
+<img src="speechrecognition/result.png" height = 400 width = 800>
+
+## 13) Soduku
 Solves the soduku puzzle and gives the output using backtracking.
 
-## 13) TextEditor
+## 14) TextEditor
 An elegant, yet simple, text editor made with Python and wxPython.<br/>
 Install wxPython by using: `pip install wxPython`<br/><br/>
 Check out the results:<br/>
 <img src="texteditor/result.png" height = 400 width = 800>
 
-## 14) TicTacToe
+## 15) TicTacToe
 Play TicTacToe against Smart Computer which is almost undefeatable, challenge yourself by defeating the Computer, It uses Minimax algorithm.<br/>
 To run use: `python game.py`
 
-## 15) Url-Shortener
+## 16) Url-Shortener
 Shorten all the urls using tinyurl API.<br/>
 You can enter multiple links(1000+ without getting crashed) in a text file at once to shorten it or just simply take it as an input or just directly code the url which you want to shorten.<br/>
 url_shortener.py is the library file for URL shortening.<br/>
@@ -84,6 +92,6 @@ Run python main_script.py to get the desired results.<br/>
 Note: Make sure that the ‘url_shortener.py’ file is available in the same working directory as main_script.py.<br/>
 If you don't wish to use 'main_script.py' file then you can still run the code and get the shortened url by running this command `python url_shortener.py add_your_link_here`
 
-## 16) Wikipedia
+## 17) Wikipedia
 Get the summary, search, images, links, and many more features of wikipedia article directly through one of the python libraries.<br/>
 Check out the code for explanation and working.
