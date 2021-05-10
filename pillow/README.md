@@ -16,7 +16,7 @@ The output after running the code is here:
 
 ### Processing a subrectangle, and pasting it back
 
-<img src="results/rectangle.png" height = 400 width = 800>
+<img src="results/rectangle.PNG" height = 400 width = 800>
 
 ### Splitting and merging bands
 
