@@ -181,7 +181,7 @@ im = Image.open('test.jpg')
 enh = ImageEnhance.Contrast(im)     #An enhancement factor of 0.0 gives a solid grey image. A factor of 1.0 gives the original image.
 enh.enhance(1.3).save("results/more_contrast.JPG")      
 enh = ImageEnhance.Color(im)        #An enhancement factor of 0.0 gives a black and white image. A factor of 1.0 gives the original image.
-enh.enhance(0.5).save("results/less_color.JPG")
+enh.enhance(0.5).save("results/less_colour.JPG")
 enh = ImageEnhance.Brightness(im)      #An enhancement factor of 0.0 gives a black image. A factor of 1.0 gives the original image.
 enh.enhance(0.7).save("results/less_brighter.JPG") 
 enh = ImageEnhance.Sharpness(im)        #An enhancement factor of 0.0 gives a blurred image, a factor of 1.0 gives the original image, and a factor of 2.0 gives a sharpened image.
