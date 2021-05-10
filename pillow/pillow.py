@@ -30,6 +30,7 @@ cropped.save('results/cropped.jpg')
 '''Processing a subrectangle, and pasting it back'''
 cropped = cropped.transpose(Image.ROTATE_180)
 im.paste(cropped, box)
+im.show()
 
 
 '''Splitting and merging bands'''

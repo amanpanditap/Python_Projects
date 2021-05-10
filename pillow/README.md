@@ -14,6 +14,10 @@ The output after running the code is here:
 
 <img src="results/cropped.jpg" height = 700 width = 500>
 
+### Processing a subrectangle, and pasting it back
+
+<img src="results/subrectangle.png" height = 400 width = 800>
+
 ### Splitting and merging bands
 
 - RGB 
