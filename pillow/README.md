@@ -12,7 +12,7 @@ The output after running the code is here:
 
 ### Copying a subrectangle from an image
 
-<img src="results/cropped.jpg" height = 400 width = 800>
+<img src="results/cropped.jpg" height = 700 width = 500>
 
 ### Splitting and merging bands
 
@@ -100,16 +100,16 @@ As the image is itself in JPEG no need for conversion.
 
 #### Enhancing Images
 - 30% More Contrast
-<img src="results/30%_more_contrast.JPG" height = 400 width = 800>
+<img src="results/more_contrast.JPG" height = 400 width = 800>
 
 - 50% Less Colour
-<img src="results/50%_less_colour.JPG" height = 400 width = 800>
+<img src="results/less_colour.JPG" height = 400 width = 800>
 
 - 30% Less Brighter
-<img src="results/30%_less_brighter.JPG" height = 400 width = 800>
+<img src="results/less_brighter.JPG" height = 400 width = 800>
 
 - 80% More Sharper
-<img src="results/80%_more_sharper.JPG" height = 400 width = 800>
+<img src="results/more_sharper.JPG" height = 400 width = 800>
 
 ### Image Sequences
 Check out the frames folder for the captured images saved from the animated GIF.
@@ -127,7 +127,8 @@ Check out the frames folder for the captured images saved from the animated GIF.
 <img src="results/greyscale.jpg" height = 400 width = 800>
 
 ### Creating numpy array from an Image
-- Array <br/>
+- Array
+
 [[[173 186 205]<br/>
   [108 123 144]<br/>
   [111 127 152]<br/>
@@ -147,13 +148,13 @@ Check out the frames folder for the captured images saved from the animated GIF.
  [[173 186 205]<br/>
   [108 123 144]<br/>
   [111 127 152]<br/>
+  <br/>
   ...<br/>
+  <br/>
   [  0   0   0]<br/>
   [  0   0   0]<br/>
   [  0   0   0]]<br/>
-<br/>
  ...<br/>
-<br/>
  [[  0   0   0]<br/>
   [  0   0   0]<br/>
   [  0   0   0]<br/>
@@ -177,7 +178,7 @@ Check out the frames folder for the captured images saved from the animated GIF.
   [  0   0   0]<br/>
   [  0   0   0]<br/>
   [  0   0   0]]]<br/>
-
+<br/>
 - Array to Image
 <img src="results/array2Image.jpg" height = 400 width = 800>
 
