@@ -179,13 +179,13 @@ out.save('results/bands.jpg')
 '''Enhancing Images'''
 im = Image.open('test.jpg')
 enh = ImageEnhance.Contrast(im)     #An enhancement factor of 0.0 gives a solid grey image. A factor of 1.0 gives the original image.
-enh.enhance(1.3).save("results/30% more contrast.JPG")      
+enh.enhance(1.3).save("results/30%_more_contrast.JPG")      
 enh = ImageEnhance.Color(im)        #An enhancement factor of 0.0 gives a black and white image. A factor of 1.0 gives the original image.
-enh.enhance(0.5).save("results/50% less color.JPG")
+enh.enhance(0.5).save("results/50%_less_color.JPG")
 enh = ImageEnhance.Brightness(im)      #An enhancement factor of 0.0 gives a black image. A factor of 1.0 gives the original image.
-enh.enhance(0.7).save("results/30% less brighter.JPG") 
+enh.enhance(0.7).save("results/30%_less_brighter.JPG") 
 enh = ImageEnhance.Sharpness(im)        #An enhancement factor of 0.0 gives a blurred image, a factor of 1.0 gives the original image, and a factor of 2.0 gives a sharpened image.
-enh.enhance(1.8).save("results/80% more sharper.JPG") 
+enh.enhance(1.8).save("results/80%_more_sharper.JPG") 
 
 '''Image Sequence'''
 # Supported sequence formats include FLI/FLC, GIF, and a few experimental formats. TIFF files can also contain more than one frame.
