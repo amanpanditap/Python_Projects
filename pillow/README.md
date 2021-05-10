@@ -8,7 +8,7 @@ The output after running the code is here:
 
 ### Starting Image
 
-<img src="pillow/test.jpg" height = 400 width = 800>
+<img src="test.jpg" height = 400 width = 800>
 
 ### Copying a subrectangle from an image
 
