@@ -12,16 +12,40 @@ Command to Run: `python candlestick_chart.py`<br/>
 
 Note: Enter proper ticker name to avoid errors.
 
+## [Crypto Visualizer](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/crypto_visualizer)
+Visualize Crypto Coin value in the desired currency.<br/>
+Scale adjusted to Logarathmic for a good visualization.
+
+Command to Run: `python crypto_visualizer.py`<br/>
+
+- Input<br/>
+<img src="crypto_visualizer/input.jpg" height = 600 width = 600>
+
+- Results<br/>
+<img src="crypto_visualizer/crypto_visualizer.png" height = 400 width = 800>
+
+Note: Enter proper ticker and curreny name to avoid errors.
+
 ## [Portfolio Visualizer](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/portfolio_visualizer)
 Visualize your investments via portfolio_visualizer.<br/>
 
 Command to Run: `python portfolio_visualizer.py`<br/>
 
-Input<br/>
+- Input<br/>
 <img src="portfolio_visualizer/input.png" height = 600 width = 600>
 
 - Results<br/>
 <img src="portfolio_visualizer/portfolio_visualizer.png" height = 400 width = 800>
+
+Note: Enter proper ticker name to avoid errors.
+
+## [Stock Prediction](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/stock_prediction)
+Predict Closing Price of Next Day of a Stock.
+
+Command to Run: `python stock_prediction.py`<br/>
+
+- Results<br/>
+<img src="stock_prediction/stock_prediction.png" height = 400 width = 800>
 
 Note: Enter proper ticker name to avoid errors.
 

@@ -6,7 +6,7 @@ import datetime as dt
 start = dt.datetime(2021,1,1) 
 end = dt.datetime.now()
 
-ticker_symbol = input('Enter the stock ticker which you wish to plot the chart: ')
+ticker_symbol = input('Enter the stock ticker which you wish to analyse: ')
 data = web.DataReader(ticker_symbol, 'yahoo', start, end)
 
 #print(data)
