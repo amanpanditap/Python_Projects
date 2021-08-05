@@ -20,7 +20,7 @@ Scale adjusted to Logarathmic for a good visualization.
 Command to Run: `python crypto_visualizer.py`<br/>
 
 - Input<br/>
-<img src="crypto_visualizer/input.jpg" height = 600 width = 600>
+<img src="crypto_visualizer/input.jpg" height = 600 width = 800>
 
 - Results<br/>
 <img src="crypto_visualizer/crypto_visualizer.png" height = 400 width = 800>
