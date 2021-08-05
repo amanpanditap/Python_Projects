@@ -27,37 +27,42 @@ Make sure that you have done all the installations properly.<br/>
 To detect face in an image: Run `python facedetection-image.py`<br/>
 To detect face from webcam or saved video file: Run `python facedetection-video.py`<br/>
 
-## 5) [Graph Composer Master](https://github.com/amanpanditap/Python_Projects/tree/main/graph-composer-master)
+## 5) [Finance_Python](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python)
+Finance based application using Python & its libraries.<br/>
+- Candlestick_Chart
+- Portfolio_Visualizer
+
+## 6) [Graph Composer Master](https://github.com/amanpanditap/Python_Projects/tree/main/graph-composer-master)
 This makes a random paragraph of desired length from any text file such as songs lyrics or movie subtitles, it uses graph and selects words as per their weights.<br/>
 It includes the implementation of Markov Chain<br/>
 To run use : `python compose.py`
 
-## 6) [Hangman](https://github.com/amanpanditap/Python_Projects/tree/main/hangman)
+## 7) [Hangman](https://github.com/amanpanditap/Python_Projects/tree/main/hangman)
 It is a simple game to guess the letter in a word with a specific number of lives available to guess.<br/>
 To run use: `python hangman.py`
 
-## 7) [Latest News](https://github.com/amanpanditap/Python_Projects/tree/main/latest-news)
+## 8) [Latest News](https://github.com/amanpanditap/Python_Projects/tree/main/latest-news)
 Get the latest news from all over the world by just running a python script.<br/>
 Note: Make sure that you have the BeautifulSoup library
 
-## 8) [Minesweeper](https://github.com/amanpanditap/Python_Projects/tree/main/minesweeper)
+## 9) [Minesweeper](https://github.com/amanpanditap/Python_Projects/tree/main/minesweeper)
 Command line Minesweeper game.
 
-## 9) [Pillow](https://github.com/amanpanditap/Python_Projects/tree/main/pillow)
+## 10) [Pillow](https://github.com/amanpanditap/Python_Projects/tree/main/pillow)
 Learnt Python Imaging Library.
 Check the codes for more details.
 Go through Jupyter Notebook for a better readibility.
 To run use: `python pillow.py test.jpg`
 
-## 10) [Photoshop](https://github.com/amanpanditap/Python_Projects/tree/main/pyphotoshop)
+## 11) [Photoshop](https://github.com/amanpanditap/Python_Projects/tree/main/pyphotoshop)
 It is a photo editing project which takes particular image as input then as per the requirement adjusts its brightness, contrast, blur, darkens, edge detection kernel, and combines 2 images and then gives the output image.<br/>
 Note: Use version below than Python 3.9 for running this, suggested Python 3.8.<br/>
 To run use: `python transform.py`
 
-## 11) [Reminder](https://github.com/amanpanditap/Python_Projects/tree/main/reminder)
+## 12) [Reminder](https://github.com/amanpanditap/Python_Projects/tree/main/reminder)
 Get a reminder on your desktop as per your wish with a beep sound!
 
-## 12) [Python - Simple Math Interpreter](https://github.com/amanpanditap/Python_Projects/tree/main/simple_math_interpreter)
+## 13) [Python - Simple Math Interpreter](https://github.com/amanpanditap/Python_Projects/tree/main/simple_math_interpreter)
 
 An interpreter, written from scratch in Python, that can evaluate simple math calculations.
 
@@ -69,7 +74,7 @@ The user input is analyzed in two sections of code called the lexer and parser, 
 
 Credits to [CodePulse](https://www.youtube.com/channel/UCUVahoidFA7F3Asfvamrm7w) for the Simple Math interpreter written in Python
 
-## 13) [SpeechRecognition](https://github.com/amanpanditap/Python_Projects/tree/main/speechrecognition)
+## 14) [SpeechRecognition](https://github.com/amanpanditap/Python_Projects/tree/main/speechrecognition)
 
 Speech to Text Conversion in python using speech_recognition.<br/>
 Install it using : `pip install SpeechRecognition`<br/>
@@ -77,20 +82,20 @@ Check the codes for detailed guidelines.<br/><br/>
 Here is a sample result:<br/>
 <img src="speechrecognition/result.png" height = 400 width = 800>
 
-## 14) [Soduku](https://github.com/amanpanditap/Python_Projects/tree/main/sudoku)
+## 15) [Soduku](https://github.com/amanpanditap/Python_Projects/tree/main/sudoku)
 Solves the soduku puzzle and gives the output using backtracking.
 
-## 15) [TextEditor](https://github.com/amanpanditap/Python_Projects/tree/main/texteditor)
+## 16) [TextEditor](https://github.com/amanpanditap/Python_Projects/tree/main/texteditor)
 An elegant, yet simple, text editor made with Python and wxPython.<br/>
 Install wxPython by using: `pip install wxPython`<br/><br/>
 Check out the results:<br/>
 <img src="texteditor/result.png" height = 400 width = 800>
 
-## 16) [TicTacToe](https://github.com/amanpanditap/Python_Projects/tree/main/tictactoe)
+## 17) [TicTacToe](https://github.com/amanpanditap/Python_Projects/tree/main/tictactoe)
 Play TicTacToe against Smart Computer which is almost undefeatable, challenge yourself by defeating the Computer, It uses Minimax algorithm.<br/>
 To run use: `python game.py`
 
-## 17) [Url-Shortener](https://github.com/amanpanditap/Python_Projects/tree/main/url_shortener)
+## 18) [Url-Shortener](https://github.com/amanpanditap/Python_Projects/tree/main/url_shortener)
 Shorten all the urls using tinyurl API.<br/>
 You can enter multiple links(1000+ without getting crashed) in a text file at once to shorten it or just simply take it as an input or just directly code the url which you want to shorten.<br/>
 url_shortener.py is the library file for URL shortening.<br/>
@@ -98,6 +103,6 @@ Run python main_script.py to get the desired results.<br/>
 Note: Make sure that the ‘url_shortener.py’ file is available in the same working directory as main_script.py.<br/>
 If you don't wish to use 'main_script.py' file then you can still run the code and get the shortened url by running this command `python url_shortener.py add_your_link_here`
 
-## 18) [Wikipedia](https://github.com/amanpanditap/Python_Projects/tree/main/wikipedia)
+## 19) [Wikipedia](https://github.com/amanpanditap/Python_Projects/tree/main/wikipedia)
 Get the summary, search, images, links, and many more features of wikipedia article directly through one of the python libraries.<br/>
 Check out the code for explanation and working.
