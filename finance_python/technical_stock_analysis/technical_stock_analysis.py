@@ -56,7 +56,7 @@ ax2.axhline(80, linestyle='--',alpha=0.5, color = '#00ff00')
 ax2.axhline(90, linestyle='--',alpha=0.5, color = '#ffaa00')
 ax2.axhline(100, linestyle='--',alpha=0.5, color = '#ff0000')
 
-ax2.set_title('RSI Value')
+ax2.set_title('{} RSI Value'.format(ticker_symbol), color = 'white')
 ax2.grid(False)
 ax2.set_axisbelow(True)
 ax2.set_facecolor('black')
