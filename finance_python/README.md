@@ -60,6 +60,6 @@ For more, Read [here](https://www.investopedia.com/articles/active-trading/04211
 Command to Run: `python technical_stock_analysis.py`<br/>
 
 - Results<br/>
-<img src="technical_stock_analysis/technical_stock_analysis.png" height = 400 width = 800>
+<img src="technical_stock_analysis/technical_stock_analysis1.png" height = 400 width = 800>
 
 Note: Enter proper ticker name to avoid errors.
