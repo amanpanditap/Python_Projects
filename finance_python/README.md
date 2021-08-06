@@ -5,7 +5,7 @@
 Command to Run: `python balance_sheet_analysis.py`<br/>
 
 - Results<br/>
-<img src="balance_sheet_analysis/balance_sheet_analysis.jpg" height = 600 width = 800>
+<img src="balance_sheet_analysis/balance_sheet_analysis.jpg" height = 600 width = 1000>
 
 Note: Enter proper ticker name to avoid errors.
 
