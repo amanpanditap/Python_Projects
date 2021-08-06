@@ -13,6 +13,28 @@ Command to Run: `python candlestick_chart.py`<br/>
 
 Note: Enter proper ticker name to avoid errors.
 
+## [Crypto/Stock Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/crypto_analysis)
+Analyse Cryptocurrencies or Stocks.<br/>
+
+Correlation is a term from mathematical statistics that describes the strength of linear relationship between the variables (in our case: financial instruments).
+
+Simply speaking, it describes whether or not instruments move in same/opposite directions.
+
+The darker the color, the stronger the correlation<br/>
+Green colors mean positive correlations<br/>
+Red colors mean negative correlations<br/>
+Transparent colors mean no correlation or absence of the symbol data<br/>
+
+Command to Run: `python crypto_analysis.py`<br/>
+
+- Crypto Analysis Results
+<img src="crypto_analysis/crypto_analysis.png" height = 400 width = 800>
+
+- Stock Analysis Results
+<img src="crypto_analysis/stock_analysis.png" height = 400 width = 800>
+
+Note: Enter proper ticker name to avoid errors.
+
 ## [Crypto Visualizer](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/crypto_visualizer)
 Visualize Crypto Coin value in the desired currency.<br/>
 Scale adjusted to Logarathmic for a good visualization.
