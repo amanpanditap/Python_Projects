@@ -1,5 +1,14 @@
 # Finance Python
 
+## [Balance Sheet Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/balance_sheet_analysis)
+
+Command to Run: `python balance_sheet_analysis.py`<br/>
+
+- Results<br/>
+<img src="balance_sheet_analysis/balance_sheet_analysis.jpg" height = 600 width = 800>
+
+Note: Enter proper ticker name to avoid errors.
+
 ## [Candlestick Charts](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/candlestick_chart)
 Candlestick charts are used by traders to determine possible price movement based on past patterns. Candlesticks are useful when trading as they show four price points (open, close, high, and low) throughout the period of time the trader specifies.<br/>
 
