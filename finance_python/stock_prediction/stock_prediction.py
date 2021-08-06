@@ -9,17 +9,22 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 
 # Load Data
-start = dt.datetime(2012,1,1) 
+start = dt.datetime(2016,1,1) 
 end = dt.datetime(2021,1,1)
+currency = input('Enter the currency unit(Eg: INR, USD): ')
+crypto = input('Enter the Crypto Ticker which you wish to Predict: ')
 
-ticker_symbol = input('Enter the stock ticker which you wish to predict: ')
-data = web.DataReader(ticker_symbol, 'yahoo', start, end)
+# ticker_symbol = input('Enter the Stock Ticker which you wish to Predict: ')
+
+# data = web.DataReader(ticker_symbol, 'yahoo', start, end)               # Stock Prediction
+data = web.DataReader(f'{crypto}-{currency}', 'yahoo', start, end)        # Crypto Prediction
 
 # Prepare Data
 scaler = MinMaxScaler(feature_range=(0,1))  # Fit the data value within 0-1 range
 scaled_data = scaler.fit_transform(data['Close'].values.reshape(-1,1))           # Selected Closing Price for prediction
 
 prediction_days = 60             # Select the date range for past values on which basis you wish to predict future price.
+# future_day = 30                # Predict future values after 30 days
 
 x_train = []
 y_train = []
@@ -27,6 +32,11 @@ y_train = []
 for x in range(prediction_days, len(scaled_data)):      # From 60th Index to the last index of scaled data
     x_train.append(scaled_data[x-prediction_days:x, 0]) # Append 60 values From 61st data to predict 
     y_train.append(scaled_data[x, 0])   # 61st
+
+""" Future Prediction
+for x in range(prediction_days, len(scaled_data)-future_day):      # From 60th Index to the last index of scaled data
+    x_train.append(scaled_data[x-prediction_days:x, 0]) # Append 60 values From 61st data to predict 
+    y_train.append(scaled_data[x+future_day, 0])   # 90th """
 
 x_train, y_train = np.array(x_train), np.array(y_train)
 x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1], 1))
@@ -48,7 +58,8 @@ model.fit(x_train, y_train, epochs=25, batch_size=32)     # Model views same dat
 # Test the Model accuracy on existing data
 test_start = dt.datetime(2021, 1, 1)
 test_end = dt.datetime.now()
-test_data = web.DataReader(ticker_symbol, 'yahoo', test_start, test_end)
+# test_data = web.DataReader(ticker_symbol, 'yahoo', test_start, test_end)
+test_data = web.DataReader(f'{crypto}-{currency}', 'yahoo', test_start, test_end)
 actual_prices = test_data['Close'].values
 
 total_dataset = pd.concat((data['Close'], test_data['Close']), axis = 0)
@@ -68,12 +79,21 @@ x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
 predicted_prices = model.predict(x_test)     # Predict
 predicted_prices = scaler.inverse_transform(predicted_prices)     # Reverse Scaling as predicted_prices are scaled
 
-# Plot the Test Prediction
-plt.plot(actual_prices, color = 'black', label = f"Actual {ticker_symbol} Price")
-plt.plot(predicted_prices, color = 'green', label = f"Predicted {ticker_symbol} Price")
-plt.title(f"{ticker_symbol} Share Price")
+# Plot the Test Prediction(Stock)
+# plt.plot(actual_prices, color = 'black', label = f"Actual {ticker_symbol} Price")
+# plt.plot(predicted_prices, color = 'green', label = f"Predicted {ticker_symbol} Price")
+# plt.title(f"{ticker_symbol} Share Price")
+# plt.xlabel('Time')
+# plt.ylabel(f"{ticker_symbol} Share Price")
+# plt.legend()
+# plt.show()
+
+# Plot the Test Prediction(Crypto)
+plt.plot(actual_prices, color = 'black', label = f"Actual {crypto} Price")
+plt.plot(predicted_prices, color = 'green', label = f"Predicted {crypto} Price")
+plt.title(f"{crypto} Price")
 plt.xlabel('Time')
-plt.ylabel(f"{ticker_symbol} Share Price")
+plt.ylabel(f"{crypto} Price")
 plt.legend()
 plt.show()
 

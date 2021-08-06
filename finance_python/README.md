@@ -13,7 +13,7 @@ Command to Run: `python candlestick_chart.py`<br/>
 
 Note: Enter proper ticker name to avoid errors.
 
-## [Crypto/Stock Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/crypto_analysis)
+## [Crypto / Stock Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/crypto_analysis)
 Analyse Cryptocurrencies or Stocks.<br/>
 
 Correlation is a term from mathematical statistics that describes the strength of linear relationship between the variables (in our case: financial instruments).
@@ -62,13 +62,16 @@ Command to Run: `python portfolio_visualizer.py`<br/>
 
 Note: Enter proper ticker name to avoid errors.
 
-## [Stock Prediction](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/stock_prediction)
-Predict Closing Price of Next Day of a Stock.
+## [Stock / Crypto Prediction](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/stock_prediction)
+Predict Closing Price of Next Day of a Stock / Cryptocurrency.
 
 Command to Run: `python stock_prediction.py`<br/>
 
-- Results<br/>
+- Stock Prediction Results<br/>
 <img src="stock_prediction/stock_prediction.png" height = 400 width = 800>
+
+- Crypto Prediction Results<br/>
+<img src="stock_prediction/crypto_prediction.png" height = 400 width = 800>
 
 Note: Enter proper ticker name to avoid errors.
 
