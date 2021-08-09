@@ -9,12 +9,18 @@ end = dt.datetime.now()
 
 a = True
 while(a):
-    crypto = input('Enter the Crypto ticker which you wish to visualize: ')
-    b = input('Press 0 to visualize or any other key to keep adding the coins: ')
+    crypto_ticker = input('Enter the Crypto Ticker which you wish to visualize: ')
+    # stock_ticker = input('Enter the Stock Ticker which you wish to visualize: ')
+    b = input('Press 0 to visualize or any other key to keep adding the coins/stocks: ')
     print("\n")
-    data = web.DataReader(f'{crypto}-{currency}','yahoo', start, end)
-    plt.yscale("log")         # Logarathmic Scale
-    plt.plot(data['Close'], label = crypto)
+
+    data = web.DataReader(f'{crypto_ticker}-{currency}','yahoo', start, end)
+    # data = web.DataReader(stock_ticker,'yahoo', start, end)
+
+    plt.yscale("log")         # Logarathmic Scale as the difference between crypto prices is too large.[Not required for visualizing stocks]
+    plt.plot(data['Close'], label = crypto_ticker)
+    # plt.plot(data['Close'], label = stock_ticker)
+    
     plt.legend(loc="upper left")
     if b == '0':
         a = False

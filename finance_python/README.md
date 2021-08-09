@@ -44,17 +44,17 @@ Command to Run: `python crypto_analysis.py`<br/>
 
 Note: Enter proper ticker name to avoid errors.
 
-## [Crypto Visualizer](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/crypto_visualizer)
+## [Crypto / Stock Visualizer](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/crypto_visualizer)
 Visualize Crypto Coin value in the desired currency.<br/>
 Scale adjusted to Logarathmic for a good visualization.
 
 Command to Run: `python crypto_visualizer.py`<br/>
 
-- Input<br/>
-<img src="crypto_visualizer/input.jpg" height = 600 width = 800>
-
-- Results<br/>
+- Crypto Visualizer Results<br/>
 <img src="crypto_visualizer/crypto_visualizer.png" height = 400 width = 800>
+
+- Stock Visualizer Results<br/>
+<img src="crypto_visualizer/stock_visualizer.png" height = 400 width = 800>
 
 Note: Enter proper ticker and curreny name to avoid errors.
 
@@ -84,6 +84,14 @@ Command to Run: `python stock_prediction.py`<br/>
 
 Note: Enter proper ticker name to avoid errors.
 
+## [Stock Screener](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/stock_screener)
+Simple Stock Screener is a tool that allows you to look through a bunch of different stocks and find the ones that match your criteria that you determine in advance.
+
+Command to Run: `python stock_screener.py`<br/>
+
+- Stock Screening Results<br/>
+<img src="stock_screener/stock_screener.png" height = 400 width = 800>
+
 ## [Technical Stock Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/technical_stock_analysis)
 What Is the Relative Strength Index (RSI)?<br/>
 Relative Strength Index is an overbought/oversold indicator that attempts to predict trend reversal points. RSI is based on the observation that a stock which is advancing will tend to close nearer to the high of the day than the low. The reverse is true for declining stocks. This indicator can also be used when comparing two different equities on a relative basis. RSI's absolute levels are 0 and 100. Buy signals are triggered at 30, and sell signals are triggered at 70. One of the important aspects of RSI is to look for divergence between price action and RSI. Upward sloping price and downward sloping RSI should be taken as a warning.
@@ -94,6 +102,6 @@ For more, Read [here](https://www.investopedia.com/articles/active-trading/04211
 Command to Run: `python technical_stock_analysis.py`<br/>
 
 - Results<br/>
-<img src="technical_stock_analysis/technical_stock_analysis1.png" height = 400 width = 800>
+<img src="technical_stock_analysis/technical_stock_analysis.png" height = 400 width = 800>
 
 Note: Enter proper ticker name to avoid errors.
