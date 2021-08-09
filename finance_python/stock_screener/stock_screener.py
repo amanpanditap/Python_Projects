@@ -60,8 +60,8 @@ for ticker in best_performers['Ticker']:
         # get instance where the ticker symbol is ticker get the score value and then turn it to a list and pick the first value
 
         condition_1 = latest_price > moving_average_150 > moving_average_200
-        condition_2 = latest_price >= (1.1 * low_52week)        # Latest Price has to be atleast 30% more than 52 week low
-        condition_3 = latest_price >= (0.6 * high_52week)      # Latest Price has to be atleast 75% of 52 week high
+        condition_2 = latest_price >= (1.1 * low_52week)        # Latest Price has to be atleast 10% more than 52 week low
+        condition_3 = latest_price >= (0.6 * high_52week)      # Latest Price has to be atleast 60% of 52 week high
         condition_4 = pe_ratio < 50
         condition_5 = peg_ratio < 5
 
