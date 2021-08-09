@@ -89,8 +89,12 @@ Simple Stock Screener is a tool that allows you to look through a bunch of diffe
 
 Command to Run: `python stock_screener.py`<br/>
 
+Wait for some time for result to display, as it deals with multiple data at same time.<br/>
+
 - Stock Screening Results<br/>
-<img src="stock_screener/stock_screener.png" height = 400 width = 800>
+<img src="stock_screener/stock_screener.jpg" height = 400 width = 800>
+
+- [Final CSV File](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/stock_screener/final.csv)
 
 ## [Technical Stock Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/technical_stock_analysis)
 What Is the Relative Strength Index (RSI)?<br/>
