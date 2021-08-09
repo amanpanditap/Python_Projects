@@ -14,7 +14,7 @@
 ## India - Statistics
 
 - New Cases
-<img src="/output/new_cases.png" height = 400 width = 800>
+<img src="output/new_cases.png" height = 400 width = 800>
 
  Zoomed<br/>
 <img src="output/zoomed_nc.png" height = 400 width = 800>
