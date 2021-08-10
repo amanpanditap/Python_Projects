@@ -36,11 +36,13 @@ To detect face from webcam or saved video file: Run `python facedetection-video.
 
 ## 6) [Finance_Python](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python)
 Finance based application using Python & its libraries.<br/>
+- Algorithmic Trading
 - Balance Sheet Analysis
 - Candlestick_Chart
 - Crypto / Stock Analysis
 - Crypto / Stock Visualizer
 - Portfolio Visualizer
+- Stock Option
 - Stock / Crypto Prediction 
 - Stock Screener
 - Technical Stock Analysis (RSI)

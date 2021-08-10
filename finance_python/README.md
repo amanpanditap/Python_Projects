@@ -1,5 +1,15 @@
 # Finance Python
 
+## [Algorithmic Trading](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/algorithmic_trading)
+For a particular stock, the plotted graph shows when to Buy / Sell a stock as per the moving averages.
+
+Command to Run: `python algorithmic_trading.py`<br/>
+
+- Results<br/>
+<img src="algorithmic_trading/algorithmic_trading.png" height = 400 width = 800>
+
+Note: Enter proper ticker name to avoid errors.
+
 ## [Balance Sheet Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/balance_sheet_analysis)
 
 Command to Run: `python balance_sheet_analysis.py`<br/>
@@ -68,6 +78,20 @@ Command to Run: `python portfolio_visualizer.py`<br/>
 
 - Results<br/>
 <img src="portfolio_visualizer/portfolio_visualizer.png" height = 400 width = 800>
+
+Note: Enter proper ticker name to avoid errors.
+
+## [Stock Option](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/stock_option)
+An option is a contract giving the buyer the right, but not the obligation, to buy (in the case of a call) or sell (in the case of a put) the underlying asset at a specific price on or before a certain date.
+
+Read more [here](https://www.investopedia.com/options-basics-tutorial-4583012).
+
+Command to Run: `python stock_option.py`
+
+- Results<br/>
+<img src="stock_option/1.png" height = 400 width = 800>
+<img src="stock_option/2.png" height = 400 width = 800>
+<img src="stock_option/3.png" height = 400 width = 800>
 
 Note: Enter proper ticker name to avoid errors.
 
