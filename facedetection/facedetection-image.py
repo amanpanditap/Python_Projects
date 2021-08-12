@@ -15,7 +15,7 @@ smile_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_smile
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 # Read the input image
-img = cv2.imread('images/img.jpg')
+img = cv2.imread('images/input/img.jpg')
 
 # Convert into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -70,7 +70,7 @@ for (x,y,w,h) in faces:
 
     #save the cropped faces
     crop_face = img[y:y + h, x:x + w]
-    cv2.imwrite(str(w) + str(h) + '_faces.jpg', crop_face)
+    cv2.imwrite('images/output/' + str(w) + str(h) + '_faces.jpg', crop_face)
 
 # Display the output
 cv2.imshow('Original', img)
@@ -81,5 +81,5 @@ k = cv2.waitKey(0)
 if k == 27:         # wait for ESC key to exit
     cv2.destroyAllWindows()
 elif k == ord('s'): # wait for 's' key to save and exit
-    cv2.imwrite('detected_image.jpg',img)
+    cv2.imwrite('images/output/detected_image.jpg',img)
     cv2.destroyAllWindows()

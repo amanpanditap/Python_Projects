@@ -19,11 +19,11 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 # To use a video file as input
-# cap = cv2.VideoCapture('videos/vid.mp4')
+# cap = cv2.VideoCapture('videos/input/vid.mp4')
 
 # Define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('detected-video.avi',fourcc, 20.0, (640,480))
+out = cv2.VideoWriter('videos/output/detected-video.avi',fourcc, 20.0, (640,480))
 
 while True:
     # Capture frame-by-frame
@@ -86,8 +86,8 @@ while True:
 
             #save the cropped faces
             crop_face = img[y:y + h, x:x + w]
-            cv2.imwrite(str(w) + str(h) + '_faces_video.jpg', crop_face)
-            # cv2.imwrite(str(w) + str(h) + '_faces_filevideo.jpg', crop_face)     #for using file from video for identification
+            cv2.imwrite('videos/output/' + str(w) + str(h) + '_faces_video.jpg', crop_face)
+            # cv2.imwrite('videos/output/' +  str(w) + str(h) + '_faces_filevideo.jpg', crop_face)     #for using file from video for identification
         # Display
         cv2.imshow('Original', img)
         cv2.imshow('Detected Gray', gray)
