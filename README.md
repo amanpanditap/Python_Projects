@@ -74,10 +74,34 @@ It is a photo editing project which takes particular image as input then as per 
 Note: Use version below than Python 3.9 for running this, suggested Python 3.8.<br/>
 To run use: `python transform.py`
 
-## 13) [Reminder](https://github.com/amanpanditap/Python_Projects/tree/main/reminder)
+## 13) [Reddit Meme Scraper](https://github.com/amanpanditap/Python_Projects/tree/main/reddit_meme_scraper)
+
+This script locates and downloads images from several subreddits (r/memes, r/surrealmemes, r/nukedmemes, r/dankmemes, r/dank) into your local system.
+
+For the sake of simplicity (and so that your system doesn't get stuffed full of images), the **download is limited to 40 (total) images per run**.
+However, you are **welcome to modify that limit** to whatever amount you'd like or **remove it** altogether, but then make sure you **update `sg.ProgressBar()`** so it properly represents the download progress.
+
+## Usage
+
+Make sure you have installed the **necessary packages** listed in **`requirements.txt`**, then simply run **`reddit_meme_scraper.py`**.
+You'll be greeted by a popup window asking where to download the images, after which the download will commence.
+
+## Screenshots
+
+Some screenshots showing how the script works:
+
+<img src="reddit_meme_scraper/images/1.jpg">
+
+<img src="reddit_meme_scraper/images/2.jpg">
+
+<img src="reddit_meme_scraper/images/3.jpg">
+
+<img src="reddit_meme_scraper/images/4.jpg">
+
+## 14) [Reminder](https://github.com/amanpanditap/Python_Projects/tree/main/reminder)
 Get a reminder on your desktop as per your wish with a beep sound!
 
-## 14) [Python - Simple Math Interpreter](https://github.com/amanpanditap/Python_Projects/tree/main/simple_math_interpreter)
+## 15) [Python - Simple Math Interpreter](https://github.com/amanpanditap/Python_Projects/tree/main/simple_math_interpreter)
 
 An interpreter, written from scratch in Python, that can evaluate simple math calculations.
 
@@ -89,7 +113,7 @@ The user input is analyzed in two sections of code called the lexer and parser, 
 
 Credits to [CodePulse](https://www.youtube.com/channel/UCUVahoidFA7F3Asfvamrm7w) for the Simple Math interpreter written in Python
 
-## 15) [SpeechRecognition](https://github.com/amanpanditap/Python_Projects/tree/main/speechrecognition)
+## 16) [SpeechRecognition](https://github.com/amanpanditap/Python_Projects/tree/main/speechrecognition)
 
 Speech to Text Conversion in python using speech_recognition.<br/>
 Install it using : `pip install SpeechRecognition`<br/>
@@ -97,20 +121,20 @@ Check the codes for detailed guidelines.<br/><br/>
 Here is a sample result:<br/>
 <img src="speechrecognition/result.png" height = 300 width = 900>
 
-## 16) [Soduku](https://github.com/amanpanditap/Python_Projects/tree/main/sudoku)
+## 17) [Soduku](https://github.com/amanpanditap/Python_Projects/tree/main/sudoku)
 Solves the soduku puzzle and gives the output using backtracking.
 
-## 17) [TextEditor](https://github.com/amanpanditap/Python_Projects/tree/main/texteditor)
+## 18) [TextEditor](https://github.com/amanpanditap/Python_Projects/tree/main/texteditor)
 An elegant, yet simple, text editor made with Python and wxPython.<br/>
 Install wxPython by using: `pip install wxPython`<br/><br/>
 Check out the results:<br/>
 <img src="texteditor/result.png" height = 600 width = 800>
 
-## 18) [TicTacToe](https://github.com/amanpanditap/Python_Projects/tree/main/tictactoe)
+## 19) [TicTacToe](https://github.com/amanpanditap/Python_Projects/tree/main/tictactoe)
 Play TicTacToe against Smart Computer which is almost undefeatable, challenge yourself by defeating the Computer, It uses Minimax algorithm.<br/>
 To run use: `python game.py`
 
-## 19) [Url-Shortener](https://github.com/amanpanditap/Python_Projects/tree/main/url_shortener)
+## 20) [Url-Shortener](https://github.com/amanpanditap/Python_Projects/tree/main/url_shortener)
 Shorten all the urls using tinyurl API.<br/>
 You can enter multiple links(1000+ without getting crashed) in a text file at once to shorten it or just simply take it as an input or just directly code the url which you want to shorten.<br/>
 url_shortener.py is the library file for URL shortening.<br/>
@@ -118,6 +142,6 @@ Run python main_script.py to get the desired results.<br/>
 Note: Make sure that the ‘url_shortener.py’ file is available in the same working directory as main_script.py.<br/>
 If you don't wish to use 'main_script.py' file then you can still run the code and get the shortened url by running this command `python url_shortener.py add_your_link_here`
 
-## 20) [Wikipedia](https://github.com/amanpanditap/Python_Projects/tree/main/wikipedia)
+## 21) [Wikipedia](https://github.com/amanpanditap/Python_Projects/tree/main/wikipedia)
 Get the summary, search, images, links, and many more features of wikipedia article directly through one of the python libraries.<br/>
 Check out the code for explanation and working.
