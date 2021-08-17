@@ -71,10 +71,10 @@ Note: Enter proper ticker and curreny name to avoid errors.
 ## [Portfolio Diversification Analysis](https://github.com/amanpanditap/Python_Projects/tree/main/finance_python/portfolio_diversification_analysis)
 Visualize your Portfolio's Diversification by % amount invested in a particular field, country, industry and market cap.
 
-Command to Run: `python portfolio_diversification_analysi.py`<br/>
+Command to Run: `python portfolio_diversification_analysis.py`<br/>
 
 - Results<br/>
-<img src="portfolio_diversification_analysi/portfolio_diversification_analysi.png" height = 400 width = 800>
+<img src="portfolio_diversification_analysis/portfolio_diversification_analysis.png" height = 400 width = 800>
 
 Note: Enter proper ticker and curreny name to avoid errors.<br/>
 You can modify the stock tickers as per your needs via entering it manually or by using command line inputs for the amount and the name of a particular investment.

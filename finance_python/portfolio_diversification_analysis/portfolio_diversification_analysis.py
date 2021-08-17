@@ -27,7 +27,7 @@ crypto_values = [si.get_live_price(cryptos[i]) * crypto_amounts[i] for i in rang
 # General distribution by % of stocks, etfs, crypto and cash in hand
 general_dist = {
     'Stocks': sum(values),
-    'ETFS': sum(etf_values),
+    'ETFs': sum(etf_values),
     'Cryptos': sum(crypto_values),
     'Cash': cash
 }
@@ -64,10 +64,10 @@ for i in range(len(stocks)):
 
 fig, axs = plt.subplots(2, 2)
 fig.suptitle('Portfolio Diversification Analysis', fontsize= 18)
-print('a')
+
+# https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.pie.html
 axs[0,0].pie(general_dist.values(), labels=general_dist.keys(), autopct="%1.1f%%", pctdistance=0.8, colors=mcolors.TABLEAU_COLORS)  # Upper Left Pie Chart
 axs[0,0].set_title('General Distribution')
-print('b')
 
 axs[0,1].pie(sector_dist.values(), labels=sector_dist.keys(), autopct="%1.1f%%", pctdistance=0.8, colors=mcolors.TABLEAU_COLORS)  # Upper Right Pie Chart
 axs[0,1].set_title('Stocks by Industry')
