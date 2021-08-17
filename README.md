@@ -41,6 +41,7 @@ Finance based application using Python & its libraries.<br/>
 - Candlestick_Chart
 - Crypto / Stock Analysis
 - Crypto / Stock Visualizer
+- Portfolio Diversification Analysis
 - Portfolio Visualizer
 - Stock Option
 - Stock / Crypto Prediction 
